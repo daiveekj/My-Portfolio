@@ -107,13 +107,13 @@ function setTyper(element, words) {
 // main project bus 
 document.getElementById("depbus").addEventListener("click", function () {
   window.open(
-    "https://github.com/Madhavaraochalla",
+    "https://github.com/Madhavaraochalla/End-To-End_Project.git",
     "_blank"
   );
 });
 document.getElementById("gitbus").addEventListener("click", function () {
   window.open(
-    "https://github.com/Madhavaraochalla",
+    "https://github.com/Madhavaraochalla/End-To-End_Project.git",
     "_blank"
   );
 });
