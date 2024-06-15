@@ -19,7 +19,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-var string = " CHALLA MADHAVARAO";
+var string = " CHANDRASHEKHAR UDGIR";
 var str = string.split("");
 var el = document.getElementById("str");
 
@@ -43,7 +43,8 @@ const text = document.querySelector(".typing-dev");
 // make a words array
 const words = [
  
-  "DevOps Engineer..."
+  "software developer. . . . ."
+  ,"web developer....","fullstack developer...."
 ];
 
 // start typing effect

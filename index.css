@@ -45,15 +45,18 @@ nav .logo span:hover {
 nav ul {
   display: flex;
   list-style: none;
+  transform: scale(1.1);
+
 }
 nav ul li {
   margin: 0px 7px;
   font-size: 20px;
   margin-left: 30px;
+
 }
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: goldenrod;
   transition: all 0.5s ease-in-out;
   letter-spacing: 1px;
 }
@@ -71,11 +74,11 @@ nav .menu-btn i {
 }
 #resume {
   padding-left: 20px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 #resume > a {
-  background-color: #da9a07;
-  color: #000000;
+  background-color: rgba(255, 0, 0, 0.681);
+  color:white;
   text-decoration: none;
   padding: 10px 30px 10px 30px;
   border-radius: 8px;
@@ -192,16 +195,28 @@ nav .menu-btn i {
 }
 #floating_intro {
   position: relative;
+  height: 700px;
+  /* border: 2px solid red; */
+
 }
+
+
 .floating {
   animation-name: floating;
-  width: 90%;
+  height: 500px;
+  width: 100%;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-
-  margin-top: 5px;
-  margin-left: -10px;
+  mix-blend-mode: lighten;
+  /* border: 2px solid red; */
+  border-radius: 40%;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 230px;
+}
+.floating>image {
+  margin-bottom: 300px;
 }
 
 @keyframes floating {
