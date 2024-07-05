@@ -19,7 +19,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-var string = " CHANDRASHEKHAR UDGIR";
+var string = " DAIVEEK JAWALKAR";
 var str = string.split("");
 var el = document.getElementById("str");
 

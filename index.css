@@ -196,6 +196,8 @@ nav .menu-btn i {
 #floating_intro {
   position: relative;
   height: 700px;
+ top: 200px;
+ right: 20px;
   /* border: 2px solid red; */
 
 }
